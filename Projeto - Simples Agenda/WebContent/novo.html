@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Adicionar Contato</title>
+</head>
+<body>
+	<h2>Criar novo contato</h2>
+	
+	<form action="create.jsp" action="post">
+	<p>*Campos Obrigatórios</p>
+	<table>
+	<tr>
+		<td><input type="text" name="nome" placeholder="Nome:" size="50" required></td>
+	</tr>
+	
+	<tr>
+		<td><input type="tel" name="fone" placeholder="Telefone" size="15" required ></td>
+	</tr>
+	
+	<tr>
+		<td><input type="email" name="email" placeholder="E-mail:" size="50"></td>
+	</tr>
+	
+	</table>
+	
+	<p>
+		<input type="submit" value="Adicionar">
+	</p>
+</form>
+
+</body>
+</html>
