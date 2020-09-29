@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	color: #66bbff;
+}
+
+/*botões*/
+
+.Botao1 {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 0; 
+}
+
+#botao2 {
+	text-decoration: none;
+	background-color: #ff0000;
+	padding: 5px 10px 5px 10px;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer; 
+	margin-left: 10px;
+}
+
+/*caixas de texto do formulário*/
+
+.Caixa1 {
+	width: 320px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #66bbff;
+}
+
+#caixa2 {
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid #ff0000;
+}
+
+/* tabela */
+
+#estilo {
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+#estilo th {
+	border: 1px solid #dddddd;
+	background-color: #66bbff;
+	text-align: left;
+	color: #ffffff;
+	padding: 8px;
+}
+
+#estilo td {
+	border: 1px solid #dddddd;
+	padding: 10px;
+}
+
+
+
+
+
